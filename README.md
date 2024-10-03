@@ -1,4 +1,5 @@
 # Pico Project Template
+As a demo, the code in this template simply turns on the onboard LED and continously prints "Hello, world!" to serial.
 
 ## How to Use
 
@@ -8,3 +9,23 @@
     * Give your project a short description
     * Keep your project **Public**
 3. Clone your new project!
+
+## How to Run
+
+### Required Dependencies
+* ```cmake```
+* ```gcc-arm-embedded``` (for macOS)
+* ```gcc-arm-none-eabi``` (for Linux)
+
+_These dependencies can be install via [Homebrew](https://brew.sh/) on macOS or [apt](https://ubuntu.com/server/docs/package-management) on WSL._
+
+### Setup
+1. Install the required dependencies
+2. Run ```git submodule update --init``` from within ```lib/```
+3. Run ```git submodule update --init``` from within ```lib/pico-sdk/```
+
+## Running
+1. Create a top-level ```build/``` directory
+2. Run ```cmake ..``` from within ```build/```
+3. Run ```make```
+4. Move ```fsw.uf2``` to a Pico in boot select mode
