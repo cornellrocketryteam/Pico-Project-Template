@@ -9,6 +9,7 @@ As a demo, the code in this template simply turns on the onboard LED and contino
     * Give your project a short description
     * Keep your project **Public**
 3. Clone your new project!
+    * _Make sure to clone with SSH_
 
 ## How to Run
 
