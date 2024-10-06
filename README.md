@@ -5,10 +5,11 @@ As a demo, the code in this template simply turns on the onboard LED and contino
 
 1. Click the "Use this template" button in the top-right of this page, and select "Create a new repository"
 2. Fill out the "Create a new repository" page
+    * Make sure the Owner is cornellrocketryteam
     * Name your project with capital words separated by dashes
     * Give your project a short description
     * Keep your project **Public**
-3. Clone your new project!
+4. Clone your new project!
     * _Make sure to clone with SSH_
 
 ## How to Run
