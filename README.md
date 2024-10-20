@@ -30,6 +30,6 @@ _These dependencies can be install via [Homebrew](https://brew.sh/) on macOS or 
 1. Create a top-level ```build/``` directory
 2. Run ```cmake ..``` from within ```build/```
 3. Run ```make```
-4. Move ```fsw.uf2``` to a Pico in boot select mode
+4. Move ```template.uf2``` to a Pico in boot select mode
 
 _At this point, the onboard LED should turn on. If you open a serial connection port you uploaded over, you should see "Hello, world!" print every second._
